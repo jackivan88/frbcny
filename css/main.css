@@ -95,6 +95,7 @@ textarea {
 body {
     max-width: 800px;
     margin: 40px auto;
+    padding: 0 10px;
 }
 
 .subtitle {
@@ -106,9 +107,9 @@ body {
 }
 
 .menu {
-    padding: .75em 0;
+    padding: .5em;
     background: rgb(68, 68, 68);
-    width: 100%;
+    max-width: 100%;
     border-bottom: 5px solid rgb(122, 0, 38);
 }
 
@@ -172,7 +173,7 @@ footer {
     width: 100%;
     border-top: 5px solid rgb(122, 0, 38);
     color: white;
-    padding: .75em;
+    padding: .5em;
     overflow: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
