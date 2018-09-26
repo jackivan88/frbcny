@@ -170,7 +170,7 @@ body {
 
 footer {
     background: rgb(68, 68, 68);
-    width: 100%;
+    max-width: 100%;
     border-top: 5px solid rgb(122, 0, 38);
     color: white;
     padding: .5em;
