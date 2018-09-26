@@ -143,27 +143,33 @@ body {
     overflow: hidden;
 }
 
-.homewelcome {
+#welcome {
     grid-column: 1;
     grid-row: 2;
 }
 
-.servicetimes {
-    grid-column: 2;
+#servicetimes {
+    grid-column-start: 2;
     grid-row: 2;
+}
+
+#about {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: auto;
 }
 
 .day {
     font-weight: bold;
 }
 
-.servicetimes ul {
+#servicetimes ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.servicetimes li {
+#servicetimes li {
     margin: 0;
     padding: 0;
 }
